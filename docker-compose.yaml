@@ -1,0 +1,43 @@
+version: '3.3'
+
+services:
+  proxy:
+    build: .
+    command: [ "proxy" ]
+    ports:
+      - "2228:2228/udp"
+
+  native:
+    build: .
+    hostname: "native"
+    command: [ "native" ]
+
+  xml:
+    build: .
+    hostname: "xml"
+    command: [ "xml" ]
+
+  json:
+    build: .
+    hostname: "json"
+    command: [ "json" ]
+
+  proto:
+    build: .
+    hostname: "proto"
+    command: [ "proto" ]
+
+  avro:
+    build: .
+    hostname: "avro"
+    command: [ "avro" ]
+
+  yaml:
+    build: .
+    hostname: "yaml"
+    command: [ "yaml" ]
+
+  msgpack:
+    build: .
+    hostname: "msgpack"
+    command: [ "msgpack" ]

@@ -1,0 +1,26 @@
+{
+    "proxy": {
+        "port": 2228
+    },
+    "native": {
+        "port": 2280
+    },
+    "xml": {
+        "port": 2281
+    },
+    "json": {
+        "port": 2282
+    },
+    "proto": {
+        "port": 2283
+    },
+    "avro": {
+        "port": 2284
+    },
+    "yaml": {
+        "port": 2285
+    },
+    "msgpack": {
+        "port": 2286
+    }
+}
